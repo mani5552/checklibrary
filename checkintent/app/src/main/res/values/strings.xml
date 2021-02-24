@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">checkintent</string>
+
+    <string name="verify1">Kindly select the sim to verify</string>
+    <string name="verify2">We will verify your mobile number by sending a sms from your device.Standard operator charges applicable</string>
+    <string name="verify6">In order to verfiy you, you have to sent an sms which we have drafted.Standard operator charges applicable.If sim you have selected is not default sim,kindly send switch the sim selected as default sim.</string>
+    <string name="verify3">Sorry you have no sim inserted</string>
+    <string name="verify4">OOPS! Sorry we unable to verify your mobile number./nKindly Try again.
+</string>
+    <string name="verify5">Your mobile number is successfully Registered.</string>
+
+
+</resources>

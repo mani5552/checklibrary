@@ -14,7 +14,7 @@ public class checkbox  {
 checkbox.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.e("toast","from library");
+                Log.e("toast","from lib");
                 Toast.makeText(c,"checked",Toast.LENGTH_SHORT).show();
             }
         });

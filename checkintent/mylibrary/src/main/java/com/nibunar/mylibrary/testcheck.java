@@ -2,6 +2,7 @@ package com.nibunar.mylibrary;
 
 import android.content.Context;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.widget.CompoundButton;
 import android.widget.Toast;
 
@@ -34,6 +35,7 @@ public class testcheck extends AppCompatCheckBox implements CompoundButton.OnChe
     public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
 
 
+        Log.e("check","fromlibrary");
         Toast.makeText(buttonView.getContext(), "check", Toast.LENGTH_SHORT).show();
     }
 }

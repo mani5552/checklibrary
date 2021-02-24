@@ -2,12 +2,14 @@ package com.nibunar.mylibrary;
 
 import android.content.Context;
 import android.util.AttributeSet;
+import android.widget.CompoundButton;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatCheckBox;
 
-public class testcheck extends AppCompatCheckBox {
+public class testcheck extends AppCompatCheckBox implements CompoundButton.OnCheckedChangeListener {
 
 
     public testcheck(@NonNull Context context) {
@@ -28,4 +30,10 @@ public class testcheck extends AppCompatCheckBox {
     }
 
 
+    @Override
+    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+
+
+        Toast.makeText(buttonView.getContext(), "check", Toast.LENGTH_SHORT).show();
+    }
 }

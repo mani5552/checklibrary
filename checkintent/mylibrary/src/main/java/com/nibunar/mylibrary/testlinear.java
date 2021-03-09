@@ -16,8 +16,8 @@ public class testlinear extends LinearLayout {
     Context context;
     CheckBox thisisidcheck;
     TextView txt_id;
-    public testlinear(Context context) {
-        super(context);
+    public testlinear(Context context, AttributeSet attrs) {
+        super(context,attrs);
         init();
     }
 
